@@ -11,6 +11,6 @@ global class BatchClass1 implements Database.Batchable<sObject>,Database.AllowsC
         
     }
     public void finish(Database.BatchableContext Bc){
-        System.debug('The Batch apex job is completed');
+        System.debug('The Batch apex job is completeds');
     }
 }
